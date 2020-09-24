@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 
 const ResistanceSchema = new Schema({
 
-    nameExercise: {
+    exercise: {
         type: String,
         trim: true,
         required: "Name is Required"

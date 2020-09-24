@@ -14,7 +14,7 @@ const CardioSchema = new Schema({
 },
     duration: {
     type: Number,
-    required: "Distance is Required"
+    required: "Duration is Required"
 },
 });
 
